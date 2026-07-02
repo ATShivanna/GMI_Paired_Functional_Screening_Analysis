@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "GMI Paired Functional Screening Analysis"
+message: "If you use this analysis workflow, please cite the associated manuscript and the archived repository release."
+type: software
+authors:
+  - family-names: Shivanna
+    given-names: Anilkumar T.
+  - family-names: Hsu
+    given-names: Tzu-Yu
+  - family-names: Lin
+    given-names: Chen-Fang
+  - family-names: Wu
+    given-names: Ying-Ta
+repository-code: "https://github.com/ATShivanna/GMI_Paired_Functional_Screening_Analysis"
+license: MIT
+version: "1.0.1"
+date-released: "2026-07-02"
+keywords:
+  - functional precision oncology
+  - ex vivo screening
+  - GMI
+  - drug response
+  - pathway analysis
+  - hierarchical clustering
+  - Python
+abstract: "Python analysis workflow for paired ex vivo functional screening data generated under PBS and GMI-modulated conditions, including viability normalization, Δ(GMI − PBS) calculation, pathway aggregation, clustering, statistical analysis, and figure generation."

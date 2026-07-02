@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="980" viewBox="0 0 900 980">
+  <defs>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#EEF7FF"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="980" fill="#FAFBFC"/>
+  <text x="450" y="55" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#102A43">
+    Computational Workflow
+  </text>
+  <text x="450" y="90" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#52616B">
+    Paired GMI functional screening analysis pipeline
+  </text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#102A43" text-anchor="middle">
+    <g transform="translate(250,130)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="43" font-weight="700">Raw screening data</text>
+    </g>
+    <g transform="translate(250,240)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="32" font-weight="700">01 Extract & normalize</text>
+      <text x="200" y="55" font-size="15" fill="#52616B">normalized viability matrices</text>
+    </g>
+    <g transform="translate(250,350)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="32" font-weight="700">02 Build response matrices</text>
+      <text x="200" y="55" font-size="15" fill="#52616B">paired PBS and GMI layouts</text>
+    </g>
+    <g transform="translate(250,460)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="32" font-weight="700">03 Compute Δ(GMI − PBS)</text>
+      <text x="200" y="55" font-size="15" fill="#52616B">ΔMin and ΔAUC response metrics</text>
+    </g>
+    <g transform="translate(250,570)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="32" font-weight="700">04–05 Prioritize & aggregate</text>
+      <text x="200" y="55" font-size="15" fill="#52616B">top hits and pathway-level summaries</text>
+    </g>
+    <g transform="translate(250,680)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="32" font-weight="700">06 Cluster response phenotypes</text>
+      <text x="200" y="55" font-size="15" fill="#52616B">hierarchical clustering and silhouettes</text>
+    </g>
+    <g transform="translate(250,790)" filter="url(#shadow)">
+      <rect width="400" height="70" rx="16" fill="url(#node)" stroke="#BCCCDC"/>
+      <text x="200" y="32" font-weight="700">07–08 Statistics & figures</text>
+      <text x="200" y="55" font-size="15" fill="#52616B">Kruskal–Wallis, BH-FDR, Spearman, plots</text>
+    </g>
+    <g transform="translate(250,900)" filter="url(#shadow)">
+      <rect width="400" height="60" rx="16" fill="#DDF4FF" stroke="#2F80ED"/>
+      <text x="200" y="38" font-weight="700">Publication outputs</text>
+    </g>
+  </g>
+
+  <g stroke="#2F80ED" stroke-width="4" stroke-linecap="round">
+    <line x1="450" y1="205" x2="450" y2="235"/>
+    <line x1="450" y1="315" x2="450" y2="345"/>
+    <line x1="450" y1="425" x2="450" y2="455"/>
+    <line x1="450" y1="535" x2="450" y2="565"/>
+    <line x1="450" y1="645" x2="450" y2="675"/>
+    <line x1="450" y1="755" x2="450" y2="785"/>
+    <line x1="450" y1="865" x2="450" y2="895"/>
+  </g>
+  <g fill="#2F80ED">
+    <polygon points="440,232 450,245 460,232"/>
+    <polygon points="440,342 450,355 460,342"/>
+    <polygon points="440,452 450,465 460,452"/>
+    <polygon points="440,562 450,575 460,562"/>
+    <polygon points="440,672 450,685 460,672"/>
+    <polygon points="440,782 450,795 460,782"/>
+    <polygon points="440,892 450,905 460,892"/>
+  </g>
+</svg>
