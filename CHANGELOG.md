@@ -1,5 +1,19 @@
 # Changelog
 
+
+## v1.0.4
+
+### Documentation
+- Removed broken README banner image reference.
+- Updated software badges for the Zenodo-ready release.
+- Standardized Python version labeling to Python 3.11.
+- Improved citation, data availability, and repository maintainer wording.
+
+### Release
+- Repository prepared for Zenodo DOI archiving.
+- Repository prepared for the Scientific Reports code availability statement.
+- No computational methods or analysis scripts were modified.
+
 All notable changes to this repository are documented here.
 
 ## v1.0.1 — Initial public release

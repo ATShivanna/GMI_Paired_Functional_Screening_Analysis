@@ -1,17 +1,12 @@
 <p align="center">
-  <img src="docs/repository_banner.svg" alt="GMI Paired Functional Screening Analysis banner" width="100%">
-</p>
-
-<p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.11-blue">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
-  <img alt="Release" src="https://img.shields.io/badge/Release-v1.0.2-orange">
+  <img alt="Release" src="https://img.shields.io/badge/Release-v1.0.4-orange">
   <img alt="DOI" src="https://img.shields.io/badge/DOI-Zenodo%20pending-lightgrey">
 </p>
 
 # GMI Paired Functional Screening Analysis
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Release](https://img.shields.io/badge/release-v1.0.1-lightgrey.svg)](CHANGELOG.md)
 
@@ -23,7 +18,7 @@ This repository contains the Python analysis workflow associated with the manusc
 
 The workflow supports processing and analysis of paired ex vivo functional screening data generated under baseline phosphate-buffered saline (PBS) and GMI-modulated conditions. It includes plate-level extraction, viability normalization, compound-level matrix generation, Δ(GMI − PBS) calculation, top-hit prioritization, pathway aggregation, hierarchical clustering, statistical testing, and figure generation. A dedicated script is also provided to regenerate Supplementary Figures S9 and S10 for the ΔMin–ΔAUC sensitivity analysis.
 
-> **Manuscript status:** under revision. Repository metadata should be updated with the final article citation and DOI after publication.
+> **Manuscript status:** under revision. Repository metadata should be updated with the final article citation and DOI after manuscript publication.
 
 ---
 
@@ -113,7 +108,7 @@ flowchart TD
 
 ## Requirements
 
-The workflow was developed using Python 3.10+ and standard scientific Python packages.
+The workflow was developed using Python 3.11 and standard scientific Python packages.
 
 Install dependencies with:
 
@@ -145,7 +140,7 @@ Key expected inputs include:
 - `data_raw/drug_lookup.xlsx`, containing compound annotations and assay-well lookup tables
 - `data/Supplementary_Data_S2.xlsx`, for regenerating Supplementary Figures S9 and S10
 
-Raw screening files are not included in this repository release. Representative processed datasets are provided in the manuscript Supplementary Data files, and additional datasets are available from the Maintainer upon reasonable request.
+Raw screening files are not included in this repository release. Representative processed datasets are provided in the manuscript Supplementary Data files, and additional processed datasets are available from the corresponding author upon reasonable request.
 
 ---
 
@@ -206,13 +201,13 @@ Depending on the available inputs, the workflow generates output folders such as
 
 ## Data availability
 
-Representative processed datasets are provided with the manuscript as Supplementary Data S1 and Supplementary Data S2. Raw screening files are not included in this repository release. Additional datasets supporting the findings of the study are available from the Maintainer upon reasonable request.
+Representative processed datasets are provided with the manuscript as Supplementary Data S1 and Supplementary Data S2. Raw screening files are not included in this repository release. Additional processed datasets supporting the findings of this study are available from the corresponding author upon reasonable request.
 
 ---
 
 ## Citation
 
-If you use this workflow, please cite the archived repository release and the associated manuscript after publication.
+If you use this workflow, please cite the archived repository release and the associated manuscript after manuscript publication.
 
 GitHub repository:
 
@@ -235,7 +230,7 @@ This code is released under the MIT License. See `LICENSE` for details.
 For questions about the computational workflow, please contact the Maintainer listed in the associated manuscript.
 
 
-## Maintainer
+## Repository maintainer
 
 **Dr. Anilkumar T. Shivanna**  
 First Author  

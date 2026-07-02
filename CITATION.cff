@@ -13,7 +13,7 @@ authors:
     given-names: Ying-Ta
 repository-code: "https://github.com/ATShivanna/GMI_Paired_Functional_Screening_Analysis"
 license: MIT
-version: "1.0.1"
+version: "1.0.4"
 date-released: "2026-07-02"
 keywords:
   - functional precision oncology
