@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.1.0
+
+### Independent validation
+- Added independent validation analysis for A043, A166, and A180.
+- Added PBS, active GMI, and heat-inactivated GMI comparisons.
+- Added reverse-audited Z′ and signal-window QC.
+- Corrected complete compound mapping across assay rows A–AF.
+- Added reproducibility analysis for 175 identity-matched compounds.
+- Added within-validation specificity analysis across all 178 compounds.
+- Added ΔMin and ΔAUC correlations, bootstrap 95% confidence intervals, directional concordance, paired Wilcoxon tests, and BH-FDR correction.
+- Added Supplementary Figures S12–S15 and Supplementary Data S3 source files.
+- Standardized Zenodo concept DOI to 10.5281/zenodo.21128166.
 
 ## v1.0.4
 

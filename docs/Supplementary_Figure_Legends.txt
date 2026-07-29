@@ -1,0 +1,7 @@
+Supplementary Figure S12. Validation plate-level quality-control metrics. Paired Z′ factors and signal windows are shown for PBS, active GMI, and heat-inactivated GMI conditions in A043, A166, and A180. Z′ and signal-window metrics were calculated using the reverse-audited original workflow.
+
+Supplementary Figure S13. Case-specific original-versus-validation reproducibility of ΔMin. Scatter plots compare compound-level ΔMin values for 175 identity-matched compounds. Spearman rank correlations, 3,000-resample bootstrap 95% confidence intervals, and P values are shown. The dashed line indicates identity.
+
+Supplementary Figure S14. Case-specific original-versus-validation reproducibility of ΔAUC. Scatter plots compare compound-level ΔAUC values for 175 identity-matched compounds. Spearman rank correlations, 3,000-resample bootstrap 95% confidence intervals, P values, and directional concordance are shown. The dashed line indicates identity.
+
+Supplementary Figure S15. Activity-dependent modulation under active and heat-inactivated GMI conditions. Compound-level ΔMin values relative to PBS are shown for active GMI and heat-inactivated GMI across all 178 validation compounds. Paired Wilcoxon signed-rank tests were adjusted across the three prespecified case-level comparisons using the Benjamini-Hochberg false discovery rate procedure.

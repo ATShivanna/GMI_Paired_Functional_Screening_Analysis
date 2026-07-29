@@ -3,18 +3,28 @@ title: "GMI Paired Functional Screening Analysis"
 message: "If you use this analysis workflow, please cite the associated manuscript and the archived repository release."
 type: software
 authors:
-  - family-names: Shivanna
-    given-names: Anilkumar T.
-  - family-names: Hsu
-    given-names: Tzu-Yu
-  - family-names: Lin
-    given-names: Chen-Fang
-  - family-names: Wu
-    given-names: Ying-Ta
+  - family-names: "Shivanna"
+    given-names: "Anilkumar T."
+  - family-names: "Hsu"
+    given-names: "Tzu-Yu"
+  - family-names: "Hsu"
+    given-names: "Min-Feng"
+  - family-names: "Lin"
+    given-names: "Chen-Fang"
+  - family-names: "Fu"
+    given-names: "Hsu-Yuan"
+  - family-names: "Hseu"
+    given-names: "Ruey-Shyang"
+  - family-names: "Tsao"
+    given-names: "Liy"
+  - family-names: "Govindaraju"
+    given-names: "Darshan T."
+  - family-names: "Wu"
+    given-names: "Ying-Ta"
 repository-code: "https://github.com/ATShivanna/GMI_Paired_Functional_Screening_Analysis"
 license: MIT
-version: "1.0.4"
-date-released: "2026-07-02"
+version: "1.1.0"
+date-released: "2026-07-29"
 keywords:
   - functional precision oncology
   - ex vivo screening
@@ -22,5 +32,8 @@ keywords:
   - drug response
   - pathway analysis
   - hierarchical clustering
+  - independent validation
+  - heat-inactivated GMI
   - Python
-abstract: "Python analysis workflow for paired ex vivo functional screening data generated under PBS and GMI-modulated conditions, including viability normalization, Δ(GMI − PBS) calculation, pathway aggregation, clustering, statistical analysis, and figure generation."
+abstract: "Python analysis workflow for paired ex vivo functional screening data generated under PBS, active GMI, and heat-inactivated GMI conditions, including viability normalization, ΔMin and ΔAUC analysis, independent validation, pathway aggregation, clustering, statistical analysis, and figure generation."
+doi: "10.5281/zenodo.21128166"

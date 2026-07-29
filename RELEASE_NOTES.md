@@ -1,22 +1,25 @@
-# Version 1.0.4 — Zenodo archive release
+# Version 1.1.0 — Independent validation release
 
-Repository finalized for journal submission.
+This release extends the original paired functional screening workflow with reviewer-requested independent validation.
 
-This version accompanies the revised manuscript submitted to *Scientific Reports* and is intended as the archived software release for Zenodo DOI assignment.
+## Added
+- Validation analysis for A043, A166, and A180.
+- PBS, active GMI, and heat-inactivated GMI conditions.
+- Reverse-audited plate QC using Z′ and signal window.
+- Complete A–AF assay-well mapping.
+- 175-compound original-versus-validation reproducibility analysis.
+- 178-compound Active GMI versus heat-inactivated GMI specificity analysis.
+- ΔMin and ΔAUC statistics, bootstrap confidence intervals, directional concordance, paired Wilcoxon testing, and BH-FDR correction.
+- Supplementary Figures S12–S15 and Supplementary Data S3 source data.
 
-Minor documentation improvements only:
-- removed broken README banner reference
-- updated release and Python badges
-- improved citation and contact wording
-- finalized repository documentation for journal submission
+## Compatibility
+The original v1.0.x analysis scripts are retained. Validation additions are located in `scripts/validation/`.
 
-No computational methods or analysis scripts were modified.
+## Archival
+Zenodo concept DOI: 10.5281/zenodo.21128166
 
+Zenodo will assign a new version-specific DOI when GitHub release v1.1.0 is archived.
 
-# Version 1.0.2 — Initial public release
-
-
-Additional polish in this release:
-
-- Added repository banner and graphical workflow overview.
-- Updated README badges and documentation for GitHub/Zenodo release.
+## Metadata correction
+- Updated the complete nine-author list and affiliations in `CITATION.cff`, `.zenodo.json`, and `README.md`.
+- Corresponding authors: Anilkumar T. Shivanna and Ying-Ta Wu.

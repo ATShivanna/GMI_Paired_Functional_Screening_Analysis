@@ -1,16 +1,14 @@
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.11-blue">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
-  <img alt="Release" src="https://img.shields.io/badge/Release-v1.0.5-orange">
-  <a href="https://doi.org/10.5281/zenodo.21128167">
-  <img alt="DOI" src="https://zenodo.org/badge/1286844244.svg">
-  </a>
+  <img alt="Release" src="https://img.shields.io/badge/Release-v1.1.0-orange">
+  <img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21128166-blue">
 </p>
 
 # GMI Paired Functional Screening Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/release-v1.0.1-lightgrey.svg)](CHANGELOG.md)
+[![Release](https://img.shields.io/badge/release-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 
 Computational analysis workflow for paired functional drug screening of GMI-modulated therapeutic responses in heterogeneous ex vivo tumor spheroids.
 
@@ -21,6 +19,50 @@ This repository contains the Python analysis workflow associated with the manusc
 The workflow supports processing and analysis of paired ex vivo functional screening data generated under baseline phosphate-buffered saline (PBS) and GMI-modulated conditions. It includes plate-level extraction, viability normalization, compound-level matrix generation, Δ(GMI − PBS) calculation, top-hit prioritization, pathway aggregation, hierarchical clustering, statistical testing, and figure generation. A dedicated script is also provided to regenerate Supplementary Figures S9 and S10 for the ΔMin–ΔAUC sensitivity analysis.
 
 > **Manuscript status:** under revision. Repository metadata should be updated with the final article citation and DOI after manuscript publication.
+
+
+## Associated manuscript and authors
+
+**Paired functional screening reveals GMI-modulated drug response behavior in heterogeneous tumor models**
+
+Anilkumar T. Shivanna; Tzu-Yu Hsu; Min-Feng Hsu; Chen-Fang Lin; Hsu-Yuan Fu; Ruey-Shyang Hseu; Liy Tsao; Darshan T. Govindaraju; Ying-Ta Wu.
+
+Affiliations:
+
+1. MatchCure Inc., Taipei City 106, Taiwan  
+2. MycoMagic Biomedical Co., Ltd., New Taipei City 222401, Taiwan  
+3. MycoMagic Biotechnology Co., Ltd., New Taipei City 222401, Taiwan  
+4. Department of Biochemical Science and Technology, National Taiwan University, Taipei City 106319, Taiwan  
+
+Correspondence: Anilkumar T. Shivanna (anilkumar.shivanna@imatchcure.com); Ying-Ta Wu (ywu@imatchcure.com).
+
+
+
+## Independent validation update (v1.1.0)
+
+This release adds the reviewer-requested independent validation workflow for cases A043, A166, and A180.
+
+New components include:
+
+- reverse-audited plate QC using Z′ and signal window;
+- complete assay-well mapping across rows A–AF;
+- original-versus-validation reproducibility using 175 identity-matched compounds;
+- ΔMin and ΔAUC reproducibility statistics with bootstrap confidence intervals;
+- Active GMI versus heat-inactivated GMI analysis using all 178 validation compounds;
+- paired Wilcoxon tests with Benjamini–Hochberg FDR correction;
+- final Supplementary Figures S12–S15 and Supplementary Data S3 source files.
+
+Validation scripts are located in `scripts/validation/`.
+Processed validation files are located in `data/processed_validation/`.
+
+Zenodo concept DOI:
+
+```text
+10.5281/zenodo.21128166
+```
+
+Each GitHub release archived by Zenodo receives a version-specific DOI, while the concept DOI above continues to represent all versions of the repository.
+
 
 ---
 
