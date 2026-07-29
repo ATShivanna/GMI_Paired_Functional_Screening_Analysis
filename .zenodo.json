@@ -1,0 +1,66 @@
+{
+  "title": "GMI Paired Functional Screening Analysis",
+  "upload_type": "software",
+  "publication_date": "2026-07-29",
+  "version": "1.1.0",
+  "description": "Python analysis workflow for paired ex vivo functional screening under PBS and GMI-modulated conditions. Version 1.1.0 adds independent validation using active and heat-inactivated GMI, reverse-audited quality control, 175-compound reproducibility analysis, ΔMin and ΔAUC sensitivity analyses, and final validation figure/source-data generation.",
+  "creators": [
+    {
+      "name": "Shivanna, Anilkumar T.",
+      "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
+    },
+    {
+      "name": "Hsu, Tzu-Yu",
+      "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
+    },
+    {
+      "name": "Hsu, Min-Feng",
+      "affiliation": "MycoMagic Biomedical Co., Ltd., New Taipei City 222401, Taiwan; MycoMagic Biotechnology Co., Ltd., New Taipei City 222401, Taiwan"
+    },
+    {
+      "name": "Lin, Chen-Fang",
+      "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
+    },
+    {
+      "name": "Fu, Hsu-Yuan",
+      "affiliation": "MycoMagic Biomedical Co., Ltd., New Taipei City 222401, Taiwan; MycoMagic Biotechnology Co., Ltd., New Taipei City 222401, Taiwan"
+    },
+    {
+      "name": "Hseu, Ruey-Shyang",
+      "affiliation": "MycoMagic Biomedical Co., Ltd., New Taipei City 222401, Taiwan; MycoMagic Biotechnology Co., Ltd., New Taipei City 222401, Taiwan; Department of Biochemical Science and Technology, National Taiwan University, Taipei City 106319, Taiwan"
+    },
+    {
+      "name": "Tsao, Liy",
+      "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
+    },
+    {
+      "name": "Govindaraju, Darshan T.",
+      "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
+    },
+    {
+      "name": "Wu, Ying-Ta",
+      "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "functional precision oncology",
+    "ex vivo screening",
+    "GMI",
+    "drug response",
+    "independent validation",
+    "heat-inactivated GMI",
+    "quality control",
+    "bootstrap confidence interval",
+    "false discovery rate",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ATShivanna/GMI_Paired_Functional_Screening_Analysis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "If you use this analysis workflow, please cite the associated manuscript and the archived repository release."
+}
