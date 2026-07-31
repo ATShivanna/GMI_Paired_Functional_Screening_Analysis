@@ -1,9 +1,9 @@
 {
   "title": "GMI Paired Functional Screening Analysis",
   "upload_type": "software",
-  "publication_date": "2026-07-29",
-  "version": "1.1.0",
-  "description": "Python analysis workflow for paired ex vivo functional screening under PBS and GMI-modulated conditions. Version 1.1.0 adds independent validation using active and heat-inactivated GMI, reverse-audited quality control, 175-compound reproducibility analysis, ΔMin and ΔAUC sensitivity analyses, and final validation figure/source-data generation.",
+  "publication_date": "2026-07-31",
+  "version": "1.1.1",
+  "description": "Python analysis workflow for paired ex vivo functional screening under PBS- and GMI-modulated conditions. Version 1.1.1 reissues the independent-validation release after the GitHub v1.1.0 source archive failed to attach to Zenodo. The release includes independent validation for cases A043, A166, and A180 using PBS, active GMI, and heat-inactivated GMI conditions; reverse-audited plate-level quality control; complete assay-well mapping; original-versus-validation reproducibility analyses across 175 identity-matched compounds; within-validation active-GMI versus heat-inactivated-GMI comparisons across all 178 compounds; DeltaMin and DeltaAUC analyses; 3,000-resample bootstrap confidence intervals; directional concordance; paired Wilcoxon signed-rank testing; Benjamini-Hochberg false discovery rate correction; and validation figure-generation scripts and processed source-data outputs. No scientific data, analyses, results, or conclusions were changed from version 1.1.0.",
   "creators": [
     {
       "name": "Shivanna, Anilkumar T.",
@@ -42,25 +42,27 @@
       "affiliation": "MatchCure Inc., Taipei City 106, Taiwan"
     }
   ],
-  "license": "MIT",
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
   "keywords": [
     "functional precision oncology",
-    "ex vivo screening",
+    "ex vivo drug screening",
+    "tumor spheroids",
+    "high-throughput screening",
     "GMI",
-    "drug response",
+    "Ganoderma microsporum immunomodulatory protein",
+    "drug-response modulation",
     "independent validation",
     "heat-inactivated GMI",
-    "quality control",
-    "bootstrap confidence interval",
-    "false discovery rate",
+    "DeltaMin",
+    "DeltaAUC",
     "Python"
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/ATShivanna/GMI_Paired_Functional_Screening_Analysis",
-      "relation": "isSupplementTo",
-      "scheme": "url"
+      "relation": "isSupplementTo"
     }
-  ],
-  "notes": "If you use this analysis workflow, please cite the associated manuscript and the archived repository release."
+  ]
 }
